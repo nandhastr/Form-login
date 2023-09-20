@@ -1,0 +1,83 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-size: cover;
+    background-image: url(https://img.freepik.com/free-photo/great-composition-with-daisies-scissors-decorative-box_23-2147609398.jpg?w=826&t=st=1694004368~exp=1694004968~hmac=872fa68c73f4d81c2c106fdc12fd9c426d820b77bf47a5100c291373c19150df);
+}
+
+#container {
+    margin: 10px 10px 10px;
+    height: 700px;
+}
+
+#login-card {
+    backdrop-filter: blur(4px);
+    border: 1px solid black;
+    margin: auto;
+    margin-left: 90%px;
+    margin-top: 100px;
+    margin-bottom: auto;
+    width: 300px;
+    height: 400px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 20px;
+    padding-bottom: auto;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 0px 30px 20px rgba(83, 249, 144, 10);
+}
+label {
+    padding: 10px 10px 10px;
+    display: flex;
+    color: antiquewhite;
+    text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.8);
+}
+input {
+    background: none;
+    border: 2px solid bisque;
+    border-radius: 7px;
+    padding: 6px;
+}
+input:hover {
+    box-shadow: 0px 0px 10px 10px rgba(83, 249, 144, 10);
+    background-color: antiquewhite;
+}
+
+button {
+    cursor: pointer;
+    width: 100px;
+    height: 30px;
+    margin: 5px;
+    border-radius: 10px;
+    border: 2px solid bisque;
+    background: none;
+    color: antiquewhite;
+}
+button:hover {
+    color: black;
+    background-color: antiquewhite;
+    transform: scale(1.1);
+    transition: 0.7s;
+    box-shadow: 0px 0px 10px 10px rgba(83, 249, 144, 10);
+}
+#button {
+    padding-bottom: 10px;
+    text-align: center;
+}
+H1 {
+    text-align: center;
+    color: antiquewhite;
+    text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.8);
+}
+a {
+    text-decoration: none;
+    color: antiquewhite;
+}
+a:hover {
+    color: aquamarine;
+    transition: 0.3s;
+}
+span {
+    color: antiquewhite;
+}
