@@ -3,14 +3,16 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- parallax -->
+        <script src="https://cdn.jsdelivr.net/npm/simple-parallax-js@5.5.1/dist/simpleParallax.min.js"></script>
         <link rel="stylesheet" href="style.css" />
         <title>Document</title>
     </head>
     <body>
         <div id="container">
-            <div id="login-card">
+            <div id="login-card" class="thumbnail">
                 <form action="">
-                    <h1>Login</h1>
+                    <h1>Form Login</h1>
                     <label for="">User ID</label>
                     <input type="text" />
                     <label for="">Password</label>
@@ -25,5 +27,13 @@
                 <a href=""><center>Forgot Password</center></a>
             </div>
         </div>
+        <script type="text/javascript">
+            // parallax
+            var card = document.getElementsByClassName("thumbnail");
+            new simpleParallax(card, {
+                delay: 0.6,
+                transition: "cubic-bezier(0,0,0,1)",
+            });
+        </script>
     </body>
 </html>
